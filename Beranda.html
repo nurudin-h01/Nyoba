@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ngalamkuy copy.css">
+    <script src="https://kit.fontawesome.com/87b7079bb9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script>
+        $(function() {
+            $(".toggle").on("click", function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
+    <title>NgalamKuy</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-1">
+            <div class="kiri">
+                <a href="index.html" class="logo" style="color: rgb(120, 88, 7);">NGALAM<span style="color: rgb(242, 138, 26);">KUY</span></a>
+            </div>
+            <div class="tengah">
+                <ul class="navbar">
+                    <a href="hotel.html" class="item">HOTEL</a>
+                    <a href="Budaya-1.html" class="item">BUDAYA</a>
+                    <a href="wisata.html" class="item">WISATA</a>
+                    <a href="Bantuan.html" class="item">BANTUAN</a>
+                    <li class="toggle"><span class="bars"></span></li>
+                </ul>
+            </div>
+            <div class="cari">
+                <a href="#"><span class="fa fa-search"></span></a>
+                <input class="cari-dalam-box" type="text" value="" placeholder="Cari Hotel, Tempat Wisata,...">
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
